@@ -12,13 +12,19 @@ body{
   margin-top: 50px;
 }
 
-input{
+.camposTexto input{
   margin-right: 10px;
   margin-bottom: 10px;
   height: 30px;
   width: 50%;
   padding-left: 5px;
   border: none;
+  border: 1px solid #BDBDBD;
+}
+
+form{
+  margin-left: 20px;
+  font-size: 15px;
 }
 
 select{
@@ -28,11 +34,6 @@ select{
   width: 20%;
   padding-left: 5px;
   border: none;
-}
-
-form{
-  margin-left: 20px;
-  font-size: 15px;
 }
 
 h1{
