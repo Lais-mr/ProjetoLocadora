@@ -8,7 +8,7 @@ body {
   }
  
   #header{
-    height: 120px;
+    height: 70px;
     width: 960px;
     padding: 1em;
   }
@@ -23,8 +23,7 @@ body {
   .imagemlogo{
     height:50px;
     float: left;
-    padding: 1em;
-  
+    margin-top: 0;
   }
 
   #header ul{
@@ -59,7 +58,7 @@ body {
     background: #ffffff;
   }
 #footer{
-  padding: 2em;
+  padding: 5em;
 }
 #text-rodape{
   clear: both;
@@ -68,14 +67,14 @@ body {
   font-size: 20px;
 }
 .homeLogo{
-  border: #ffffff;
-  margin: auto 0;
+    height:100px;
+    margin-right: 20em;
+    margin-left: 23em;
 }
 p{
   font-size: 25px;
   text-align: justify;
   color: #ffffff;
-  text-indent: 50px;
 }
 .horario-home{
   padding: 1em;
@@ -85,8 +84,11 @@ p{
 }
 .informacao{
   font-size: 25px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
+}
+.nav{
+  float: right;
 }
 
 
