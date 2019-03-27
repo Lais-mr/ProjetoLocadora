@@ -6,7 +6,7 @@ body {
     background-color: #2E2E2E;
     font-family: "Trebuchet MS",Helvetica, sans-serif;
   }
- 
+
   #header{
     height: 70px;
     width: 960px;
@@ -58,7 +58,8 @@ body {
     background: #ffffff;
   }
 #footer{
-  padding: 5em;
+  padding-top: 5em;
+  padding-bottom: 1em;
 }
 #text-rodape{
   clear: both;
@@ -91,5 +92,76 @@ p{
   float: right;
 }
 
+h2{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  display: inline;
+  color: white;
+  margin-left: 30px;
+  margin-top: 5px;
+}
 
-  
+/*Configurações do botão de menu */
+
+.btnMenu {
+  background-color: #1C1C1C;
+  border-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline;
+}
+
+.menu-generos-itens {
+  position: relative;
+  display: inline-block;
+
+}
+
+.menu-generos-itens {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-generos-itens a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-generos-itens a:hover {
+  background-color: #f1f1f1;
+}
+
+.menu-generos:hover .menu-generos-itens {
+  display: block;
+}
+
+/* Fim das Configurações do botão de menu */
+
+.todos-filmes{
+  margin-left: 80px;
+}
+.imagens{
+  display: inline;
+  padding: 20px;
+}
+.imagens img{
+  width: 200px;
+  height: 270px;
+  transition: all 2s;
+}
+
+.imagens img:hover{
+  height: 350px;
+  width: 250px;
+}
+
+.imagens a{
+  text-decoration: none;
+}
