@@ -260,3 +260,40 @@ textarea{
   margin: 5px;
   border: 1px solid #BDBDBD;
 }
+
+#container-sobre{
+  width: 630px;
+  height: 620px;
+  background-color: #848484;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.imagem-sobre{
+  margin-top: 20px;
+  margin-left: 25px;
+  width: 230px;
+  height: 250px;
+  
+}
+.texto-sobre-lais{
+  margin-top: 100px;
+  text-align: justify;
+  width: 300px;
+  padding: 8px;
+  font-size: 20px;
+}
+.texto-sobre-natasha{
+  margin-top: 190px;
+  text-align: justify;
+  width: 300px;
+  padding: 8px;
+  font-size: 20px;
+}
+#coluna-1{
+  width: 270px;
+  float: left;
+}
+#coluna-2{
+  width: 300px;
+  float: left;
+}
