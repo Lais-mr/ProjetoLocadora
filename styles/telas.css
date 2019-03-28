@@ -61,7 +61,6 @@ h3{
   color: #000000;
   background: #ffffff;
 }
-/* Fim formatação do cabeçalho*/
 
 body.principal #navegacao a#principal,
 body.filmes #navegacao a#filmes,
@@ -72,6 +71,7 @@ body.sobre  #navegacao  a#sobre{
     color: #000000;
     background: #ffffff;
 }
+/* Fim formatação do cabeçalho*/
 
 #container{
   width: 960px;
@@ -205,4 +205,58 @@ body.sobre  #navegacao  a#sobre{
   font-size: 18px;
   font-weight: normal;
   color: #cccccc;
+}
+
+#container-contato{
+  width: 500px;
+  height: 525px;
+  background-color: #848484;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.texto {
+  width: 80px;
+  padding: 8px;
+  display: inline-block;
+  font-weight: 400;
+}
+
+
+form{
+  padding-top: 30px;
+  margin-left: 15%;
+}
+
+input[type="text"]{
+  height: 25px;
+  width: 350px;
+  margin: 5px;
+  border: 1px solid #BDBDBD;
+}
+
+input[type="submit"]{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #FF0000;
+  border: 2px solid #DF0101;
+  margin-top: 10px;
+  padding: 5px 20px;
+  height: 40px;
+  width: 35%;
+  margin-left: 100px;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #FE2E2E, #FF0000);
+}
+
+.h2-contato{
+  text-align: center;
+  padding-top: 20px;
+}
+textarea{
+  height: 100px;
+  width: 350px;
+  margin: 5px;
+  border: 1px solid #BDBDBD;
 }
